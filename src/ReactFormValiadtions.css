@@ -1,0 +1,64 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: lightgray;
+}
+
+.myform
+{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+
+.myform div
+{
+    width: 100%;
+}
+
+.myform div input
+{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.myform div button
+{
+    width: 20%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(26, 101, 26, 0.829);
+    border: none;
+    outline: none;
+}
+
+.err-message
+{
+    color: red;
+    margin: 5px auto;
+}
+
+.err-border
+{
+    outline: none;
+    border: 2px solid red;
+}
+.container{
+    align-items: center;
+    position: relative;;
+    display:inline-block;
+
+}
